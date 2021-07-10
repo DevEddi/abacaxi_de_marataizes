@@ -23,12 +23,14 @@ a{
 header{
     margin:10px;
 }
-
+b{
+    color: #F2CB07;
+}
 hr{
     border:4px solid #fdd700;
     width:40%;
-    margin: 20px;
-    margin-left: 30%;
+    margin: 20px auto 20px;
+        
     
 }
 h1{
@@ -78,9 +80,6 @@ h1{
     align-self: center;
 }
 
-.div1 b{
-    color: #F2CB07;
-}
 
 .destaqueTexto{
     text-align: center;
@@ -98,3 +97,32 @@ h1{
     margin: 20px;
 }
 
+.divHistoria {
+    display: flex;
+    
+}
+.divHistoria p{
+    margin: 50px;
+    font-size: 24px;
+}
+
+.divJingle {
+    display: flex;
+
+}
+.divJingle p{
+    margin: auto;
+    font-size: 24px;
+
+}
+
+
+.divBeneficios {
+    text-align: center;
+
+}
+.divBeneficios p{
+    margin: 50px;
+    font-size: 24px;
+
+}
