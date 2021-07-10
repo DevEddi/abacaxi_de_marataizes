@@ -23,10 +23,33 @@ a{
 header{
     margin:10px;
 }
+
+hr{
+    border:10px solid #F2CB07;
+    width:70%;
+    margin-left: 15%;
+}
+
 .navBar{
     display:flex;
 }
 
-.navBar ul{
-
+.navBar ul {
+    display: flex;
+    align-self: center;
 }
+
+.navBar li{
+    padding-left: 100px;
+}
+
+.navBar button{
+    border-radius: 30px;
+    width: 140px;
+    font-size: 22px;
+
+    border: none;
+    background: #88BF11;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
