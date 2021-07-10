@@ -5,3 +5,28 @@
     padding:0px;
     
 }
+
+.iconPineapple{
+    width:120px;
+    height:120px;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+header{
+    margin:10px;
+}
+.navBar{
+    display:flex;
+}
+
+.navBar ul{
+
+}
