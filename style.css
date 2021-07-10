@@ -3,7 +3,7 @@
 *{
     margin:0px;
     padding:0px;
-    
+    font-family: Bebas Neue;
 }
 
 .iconPineapple{
@@ -53,3 +53,25 @@ hr{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.div1{
+    display: flex;
+    margin: 20px;
+}
+
+.div1 img{
+    border-radius:320px;
+    width:350px;
+    height:350px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.div1 p{
+    font-size: 60px;
+    padding-right: 90px;
+    align-self: center;
+}
+
+.div1 b{
+    color: #F2CB07;
+}
