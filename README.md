@@ -20,3 +20,6 @@ https://minnetonkaorchards.com/health-benefits-of-pineapple/
 JINGLE
 https://www.letras.mus.br/carlos-fernandes/jingle-abacaxi-de-marataizes/
 
+PROJETO NO FIGMA 
+
+https://www.figma.com/file/hhVhVUOeTjIw9GcxG6hvw8/abacaxidemarataizes
