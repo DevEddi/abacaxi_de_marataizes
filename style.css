@@ -20,9 +20,7 @@ a{
     text-decoration:none;
 }
 
-header{
-    margin:10px;
-}
+
 b{
     color: #F2CB07;
 }
@@ -34,32 +32,25 @@ hr{
     
 }
 h1{
-    text-align: center;
-    font-size: 48px;
-    margin: 8px;
+    text-align:center;
 }
-.navBar{
-    display:flex;
-}
-
-.navBar ul {
+.itemNavbar{
     display: flex;
-    align-self: center;
 }
 
-.navBar li{
-    padding-left: 100px;
+.itemNavbar li{
+    padding-left: 60px;
+    color: #F2CB07;
+    font-size: 24px;
+}
+.title{
+    display: flex;
+    text-align: center;
+    font-size: 34px;
+    margin: 8px;
+    justify-items: center;
 }
 
-.navBar button{
-    border-radius: 30px;
-    width: 140px;
-    font-size: 22px;
-
-    border: none;
-    background: #88BF11;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
 
 .div1{
     display: flex;
@@ -74,7 +65,6 @@ h1{
     width:350px;
     height:300px;
     margin: 20px;
-
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -104,10 +94,12 @@ h1{
 .divHistoria {
     display: flex;
     
+    
 }
 .divHistoria p{
     margin: 50px;
     font-size: 24px;
+    
 }
 
 .divJingle {
@@ -134,7 +126,7 @@ h1{
 
 /*Container Tablets*/
 
-@media only screen and (max-width:1236px) {
+@media only screen and (max-width:900px) {
     .iconPineapple{
         max-width:90px;
         max-height:90px;
@@ -163,34 +155,21 @@ h1{
             
         
     }
-    h1{
+    .itemNavbar{
+        display: flex;
+    }
+    
+    .itemNavbar li{
+        padding-left: 60px;
+        color: #F2CB07;
+        font-size: 24px;
+    }
+    .title{
+        display: flex;
         text-align: center;
-        font-size: 48px;
+        font-size: 34px;
         margin: 8px;
-    }
-    .navBar{
-        display:flex;
-    }
-    .navBar h2{
-        align-self: center;
-    }
-    .navBar ul {
-        display: none;
-        align-self: none;
-    }
-    
-    .navBar li{
-        padding-left: 100px;
-    }
-    
-    .navBar button{
-        border-radius: 30px;
-        width: 140px;
-        font-size: 22px;
-    
-        border: none;
-        background: #88BF11;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        justify-items: center;
     }
     
     .div1{
@@ -241,11 +220,14 @@ h1{
     
     .divHistoria {
         display: flex;
+        flex-wrap: wrap;
+        margin: 0px 30px 0px;
         
     }
     .divHistoria p{
-        margin: 50px;
-        font-size: 24px;
+        padding: 10px;
+        font-size: 24px;        
+        
     }
     
     .divJingle {
